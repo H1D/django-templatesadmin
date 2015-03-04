@@ -73,6 +73,7 @@ There are some settings that you can override in your ``settings.py``:
      version control.
    - ``hgcommit.HgCommitHook``: Creates a `mercurial
      <http://www.selenic.com/mercurial/>`_ commit after saving.
+     Set `TEMPLATESADMIN_HG_ROOT` to your hg root directory (usualy it's project root)
 
    You can define your own edithooks, see above hooks as example. 
    
